@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I To O - I to others</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    
+</head>
+
+<body>
+
+    <!-- Navbar from  https://getbootstrap.com/docs/5.3/components/navbar/-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">I TO O</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu cards from https://getbootstrap.com/docs/5.3/components/card/ -->
+    <section>
+        <h1>Starters</h1>
+        <h4 style="font-family: cursive;">
+            <p>This menu was designed to pick a three course meal for the stranger, but you can obviously pick a single
+                item.
+            </p>
+        </h4>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/Beef Vegetable Soup - An Organized Chaos.jpeg" class="card-img-top"
+                            alt="Beef and vegetable soup">
+                        <div class="card-body">
+                            <h5 class="card-title">Beef and vegetable soup <br>€7</h5>
+                            <p class="card-text">Home made beef and vegetable soup, with love and warmth, ready to fill
+                                one
+                                persons stomach.</p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="Beef and vegetable soup"
+                                data-price="7">
+                                Add to cart
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/Nigerian Pepper Soup _ TheFamilyCooking.jpeg" class="card-img-top"
+                            alt="Nigerian Pepper Soup">
+                        <div class="card-body">
+                            <h5 class="card-title">Nigerian Pepper Soup <br>€7</h5>
+                            <p class="card-text">Help a stranger get warm, with a spicy delicious nigerian delicacy,
+                                especially
+                                at this
+                                frosty weather.
+                                Fun fact, nigerians eat this, when they feel sligtly ill, and guess what, it does the
+                                magic!
+                                It's made with love and joy.</p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="Nigerian Pepper Soup"
+                                data-price="7">
+                                Add to cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/Kimchi and Dumpling Noodle Soup.jpeg" class="card-img-top"
+                            alt="Kimchi and dumpling noodle Soup">
+                        <div class="card-body">
+                            <h5 class="card-title">Kimchi and Dumpling Noodle Soup <br>€7</h5>
+                            <p class="card-text">Surprise a stranger today by sending them our most popular kimchi and
+                                dumpling
+                                noodle
+                                soup, made with love and happiness.</p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="Kimchi and Dumpling Noodle"
+                                data-price="7">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/Broccoli And Potato Soup - Choosing Chia.jpeg" class="card-img-top"
+                            alt="Broccoli And Potato Soup">
+                        <div class="card-body">
+                            <h5 class="card-title">Broccoli And Potato Soup <br>€7</h5>
+                            <p class="card-text">Surprise a stranger today by sending them broccoli soup
+                                soup, made with love and happiness.</p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="Broccoli And Potato Soup"
+                                data-price="7">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/White Balsamic Vinaigrette — Living Lou.jpeg" class="card-img-top"
+                            alt="White Balsamic Vinaigrette">
+                        <div class="card-body">
+                            <h5 class="card-title">White Balsamic Vinaigrette<br>€5</h5>
+                            <p class="card-text">I know you think this looks good, why not put a smile on someones face
+                                by
+                                adding it to
+                                cart.
+                                This salad is made with good intensions and lots of love.
+                            </p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="White Balsamic Vinaigrette"
+                                data-price="5">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/Vegan Chicken Caesar Salad - Cupful of Kale.jpeg" class="card-img-top"
+                            alt="Vegan Chicken Caesar Salad">
+                        <div class="card-body">
+                            <h5 class="card-title">Vegan Chicken Caesar Salad<br>€5</h5>
+                            <p class="card-text">"MHMM, now that's what I'm talking about. It's a chicken salad."
+                                Add to cart and have someone say these exact same words. Obviously home-made with lots
+                                of
+                                love.
+                            </p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="Vegan Chicken Caesar Salad"
+                                data-price="5">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/Panzanella Salad.jpeg" class="card-img-top" alt="Panzanella Salad">
+                        <div class="card-body">
+                            <h5 class="card-title">Panzanella Salad<br>€5</h5>
+                            <p class="card-text"> Make someone happy by sending them this filling salad to brighten
+                                their day, we made it with so much
+                                joy and happiness.</p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="Panzanella Salad"
+                                data-price="5">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/Hawaiian Chicken Salad_ Gluten-Free & Whole Health Flexi-Plan.jpeg"
+                            class="card-img-top" alt="Hawaiian Chicken Salad">
+                        <div class="card-body">
+                            <h5 class="card-title">Hawaiian Chicken Salad"<br>€5</h5>
+                            <p class="card-text"> Make someone happy by sending them Hawaiian Chicken Salad, we made it
+                                with so much
+                                joy and happiness.</p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="Hawaiian Chicken Salad"
+                                data-price="5">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1>Main</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/curry_rice.jpeg" class="card-img-top"
+                            alt="Curry with rice, salmon and cherry tomatoes ">
+                        <div class="card-body">
+                            <h5 class="card-title">Curry Salmon with Rice<br>€13</h5>
+                            <p class="card-text">If you're in a buttery mood today, why not send a stranger this butter
+                                curry
+                                salmon with rice to
+                                brighten their mood, obviously made with all the love and joy.
+                            </p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="Curry Salmon with Rice"
+                                data-price="13">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/Neapolitan Pizza Dough.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza Salami<br>€13</h5>
+                            <p class="card-text">This is an original made pizza by my italian friend. Help a stranger
+                                taste
+                                Italy today.
+                                This pizza was made with warmth and love of course.
+                            </p>
+                             <a href="#" class="btn btn-info add-to-cart" data-name="Pizza Salami"
+                                data-price="13">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/High Protein Burger Bowl .jpeg" class="card-img-top"
+                            alt="High Protein Burger Bowl">
+                        <div class="card-body">
+                            <h5 class="card-title">High Protein Burger Bowl<br>€13</h5>
+                            <p class="card-text">Reward a stranger with a high protein meal of minced beef, some
+                                potatoes
+                                and
+                                vegetables.
+                                Obviously home-made with lots of love and happiness.
+                            </p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="High Protein Burger Bowl"
+                                data-price="13">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/Chicken Shawarma with Creamy Garlic Sauce.jpeg" class="card-img-top"
+                            alt="Chicken Shawarma with Creamy Garlic Sauce">
+                        <div class="card-body">
+                            <h5 class="card-title">Chicken Shawarma<br>€13</h5>
+                            <p class="card-text">Be a cheerful giver today, by sending this freshly home-made Shawarma
+                                to a
+                                stramger
+                                and make their day as yummy as this meal. Made with love and light.
+                            </p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="Chicken Shawarma"
+                                data-price="13">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/NIGERIAN JOLLOF RICE.jpeg" class="card-img-top"
+                            alt="Nigerian jollof rice with plantain and turkey">
+                        <div class="card-body">
+                            <h5 class="card-title">Nigerian Jollof rice with turkey and plantain<br>€13</h5>
+                            <p class="card-text">There is someone out there who is craving this delicious dish, be the
+                                wonderful
+                                person
+                                who satisfies that craving and we will gladly prepare it with warmth and dozens of love.
+                            </p>
+                             <a href="#" class="btn btn-info add-to-cart" data-name="Nigerian Jollof rice with turkey and plantain"
+                                data-price="13">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/stir_fry.jpeg" class="card-img-top" alt="Stir fried noodles">
+                        <div class="card-body">
+                            <h5 class="card-title">Stir fried noodles<br>€13</h5>
+                            <p class="card-text">Use some stir fried noodles to lighten someones mood today on the other
+                                end.
+                                And we assure you it will definitely make them happy, afterall it is made with love and
+                                joy.
+                            </p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="Stir fried noodles"
+                                data-price="13">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/Cajun Seafood Boil with Garlic Butter Sauce.jpeg" class="card-img-top"
+                            alt="Cajun Seafood Boil with Garlic Butter Sauce">
+                        <div class="card-body">
+                            <h5 class="card-title">Cajun Seafood Boil<br>€13</h5>
+                            <p class="card-text">What is better than making one person happy? Making multiple people
+                                happy.
+                                With this seafood boil, you can add to a smile to multiple peoples faces, and most
+                                definitely
+                                made with love and warmth.
+                            </p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="Cajun Seafood Boil"
+                                data-price="13">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/Indulge in Bavette Steak with Irresistible Roasted Garlic Pan Sauce!.jpeg"
+                            class="card-img-top" alt="Bavette Steak with Irresistible Roasted Garlic Pan Sauce">
+                        <div class="card-body">
+                            <h5 class="card-title">Bavette Steak<br>€13</h5>
+                            <p class="card-text"> This Bavette Steak with Irresistible Roasted Garlic Pan Sauce can
+                                change someones day from bad to really good.
+                                Be that person who makes the change. This dish was made with warth and love.
+                            </p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="Bavette Steak"
+                                data-price="13">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1>Desserts</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/A tray pack of smallchops.jpeg" class="card-img-top" alt="A tray of small chops">
+                        <div class="card-body">
+                            <h5 class="card-title">A tray of small chops<br>€10</h5>
+                            <p class="card-text">Make a group of strangers happy by sending them our small chops
+                                platter,
+                                made with love and happiness.</p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="A tray pack of smallchops"
+                                data-price="10">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/brownies.jpeg" class="card-img-top" alt="Brownies">
+                        <div class="card-body">
+                            <h5 class="card-title">Brownies<br>€10</h5>
+                            <p class="card-text"> What is better than chocolate browines? Making someones day with it.
+                                Made with love and joy of course.
+                            </p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="Brownies"
+                                data-price="10">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque">
+                        <img src="img/cookies.jpeg" class="card-img-top" alt="Chocolate chip cookies">
+                        <div class="card-body">
+                            <h5 class="card-title">Chocolate chip cookies<br>€10</h5>
+                            <p class="card-text"> Who took the cookie from the cookie jar? You did and gave it to a
+                                stranger and now their day is made.
+                                Help us put a smile on others faces. Made with love.
+                            </p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="Chocolate chip cookies"
+                                data-price="10">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%; background-color: bisque;">
+                        <img src="img/tropical_fruits.jpeg" class="card-img-top" alt="Mix of tropical fruits">
+                        <div class="card-body">
+                            <h5 class="card-title">Mix of tropical fruits<br>€10</h5>
+                            <p class="card-text">A mix of fruits has always been a great choice to anyone. Put a smile
+                                on somebodys face today and help them
+                                stay healthy at that. Made with love.
+                            </p>
+                            <a href="#" class="btn btn-info add-to-cart" data-name="Mix of tropical fruits"
+                                data-price="10">
+                                Add to cart
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Go to cart, cart componentns from https://getbootstrap.com/docs/5.3/components/offcanvas/-->
+    <button class="btn btn-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight">Go to Cart</button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping Cart & Checkout</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <template id="cart-item-template">
+                <li class="list-group-item d-flex justify-content-between align-items-center cart-item">
+                    <div class="cart-info"></div>
+                    <!-- buttons from https://getbootstrap.com/docs/5.3/components/button-group/ -->
+                    <div class="btn-group btn-group-sm" role="group">
+                        <button type="button" class="btn btn-outline-secondary btn-minus">−</button>
+                        <button type="button" class="btn btn-outline-secondary btn-plus">+</button>
+                        <button type="button" class="btn btn-outline-danger btn-remove">Remove</button>
+                    </div>
+                </li>
+            </template>
+        </div>
+        <div class="offcanvas-body">
+
+            <!-- Cart Items -->
+            <div class="card mb-4" style="width: 100%;">
+                <div class="card-header">
+                    <h6 class="mb-0">Cart Items</h6>
+                </div>
+                <ul class="list-group list-group-flush" id="cart-items">
+                </ul>
+            
+                <p class="mt-2"><strong>Items in cart:</strong> <span id="cart-count">0</span></p>
+                <p><strong>Subtotal:</strong> €<span id="cart-subtotal">0.00</span></p>
+                <p><strong>Discount:</strong> €<span id="cart-discount">0.00</span></p>
+                <p><strong>Tax (10%):</strong> €<span id="cart-tax">0.00</span></p>
+                <p><strong>Total:</strong> €<span id="cart-total">0.00</span></p>
+            
+                <div class="card-footer d-flex justify-content-between" id="clear-cart-footer">
+                    <button class="btn btn-outline-danger btn-sm" id="clear-cart-btn">Clear cart</button>
+                    <small class="text-muted">10% discount from €50 subtotal</small>
+                </div>
+
+
+            </div>
+
+            <!-- Checkout Form from https://getbootstrap.com/docs/5.3/forms/validation/-->
+            <h6 class="mb-3">Checkout Information</h6>
+            <form class="row g-3" id="checkout-form">
+
+                <div class="col-md-6">
+                    <label for="validationDefault01" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationDefault02" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+                </div>
+                <div class="col-12">
+                    <label for="validationDefaultUsername" class="form-label">E-Mail</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="validationDefaultUsername"
+                            aria-describedby="inputGroupPrepend2" required>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <label for="validationDefault03" class="form-label">City</label>
+                    <input type="text" class="form-control" id="validationDefault03" required>
+                </div>
+                <div class="col-8">
+                    <label for="validationDefault04" class="form-label">State</label>
+                    <select class="form-select" id="validationDefault04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="col-4">
+                    <label for="validationDefault05" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="validationDefault05" required>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                            Agree to terms and conditions
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-info w-100" type="submit">Complete Purchase</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+</body>
+<footer>
+    <p class="footer"><em>© 2025 Iyobosa Osayantin</em></p>
+</footer>
+
+</html>

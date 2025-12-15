@@ -1,0 +1,55 @@
+body{
+    background-color: burlywood;
+}
+#greetings{
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    flex-grow: 1;
+}
+
+.card-body .btn {
+    margin-top: auto;
+}
+.btn-info {
+    background-color: peru!important;
+    border-color: peru !important;
+    color: white !important;
+}
+
+.btn-info:hover {
+    background-color: coral!important;
+}
+.card-title{
+    text-align: center;
+}
+section{
+    text-align: center;
+    margin: 40px 0;
+}
+section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.navbar {
+    background-color: bisque !important;
+}
