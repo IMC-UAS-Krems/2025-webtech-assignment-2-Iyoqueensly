@@ -191,8 +191,7 @@ document.addEventListener("DOMContentLoaded", function () {
       alert(
         "Thank you, " + firstName + " " + lastName + "!\n\n" +
         "Your order total is €" + total + ".\n" +
-        "A confirmation will be sent to: " + email + "\n" +
-        "Shipping to: " + zip + " " + city + ", " + state
+        "A confirmation will be sent to: " + email + "\n"
       );
 
       clearCart();
